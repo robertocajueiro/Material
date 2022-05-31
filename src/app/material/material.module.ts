@@ -7,9 +7,10 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner'
 import { MatToolbarModule } from '@angular/material/toolbar'
 import { MatSidenavModule } from '@angular/material/sidenav'
 import { MatMenuModule } from '@angular/material/menu';
-import { MatListModule } from '@angular/material/list'
-import { MatDividerModule } from  '@angular/material/divider'
-import { MatGridListModule } from '@angular/material/grid-list'
+import { MatListModule } from '@angular/material/list';
+import { MatDividerModule } from  '@angular/material/divider';
+import { MatGridListModule } from '@angular/material/grid-list';
+import {  MatExpansionModule } from '@angular/material/expansion';
 
 
 const material = [
@@ -24,7 +25,8 @@ const material = [
   MatMenuModule,
   MatListModule,
   MatDividerModule,
-  MatGridListModule
+  MatGridListModule,
+  MatExpansionModule
 ];
 
 
